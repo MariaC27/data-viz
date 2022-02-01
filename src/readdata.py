@@ -5,8 +5,8 @@ data = pd.read_csv("/Users/Maria Cristoforo/DALI/DataVizCourse/myapp/src/data/gl
 # print(data)
 
 #check for missing data / mixed data types
-#print(data.isna().sum())
+print(data.isna().sum())
 
 #check for duplicates - none
-# print(data.duplicated())
-# print(data.columns.duplicated())
+print(data.duplicated())
+print(data.columns.duplicated())
